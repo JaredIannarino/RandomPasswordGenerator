@@ -1,0 +1,120 @@
+html {
+    min-width: 455px;
+    width: 100%;
+    height: 100%;
+    background-color: #2F3E53
+}
+body {
+    background-color: #273549;
+    min-width: 455px;
+    border: 4px solid whitesmoke;
+    border-radius: 20px;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#hero {
+    margin: 100px 0 50px 50px;
+    min-width: 700px;
+}
+
+#header {
+    font-family: 'Karla', sans-serif;
+    font-size: xxx-large;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-bottom: 0;
+    max-width: 450px;
+    min-width: 450px;
+}
+
+#color-two {
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    color: #10B981;
+    margin-bottom: 0;
+}
+
+#p1-text {
+    font-family: 'Karla', sans-serif;
+    font-size: x-large;
+    color: whitesmoke;
+    margin-top: 15px;
+    min-width: 450px;
+    
+}
+ #generate-btn {
+    font-family: 'Karla', sans-serif;
+    font-size: x-large;
+     color: whitesmoke;
+     padding: 15px;
+     border: none;
+     border-radius: 5px;
+     background-color: #10B981;
+     margin-top: 25px;
+ }
+ 
+#passwords-wpr {
+    display: flex;
+    justify-content: flex-start;
+    justify-self: center;
+    border-top: 2px solid #2F3E53;
+    padding-top: 50px;
+    width: 80%;
+    margin-left: 50px;
+    min-width: 700px;
+}
+
+#password-1-el, #password-2-el {
+    font-size: larger;
+    color: #10B981;
+    border-radius: 5px;
+    background-color: #2F3E53;
+    border: none;
+    text-overflow: clip;
+    width: 250px;
+    height: 50px;
+    flex-wrap: nowrap;
+}
+
+#copy-btn {
+    font-family: 'Karla', sans-serif;
+    font-size: larger;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    background-color: #10B981;
+    margin-top: 15px;
+    width: 100px;
+}
+
+#copy-btn-2 {
+    font-family: 'Karla', sans-serif;
+    font-size: larger;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    background-color: #10B981;
+    margin-top: 15px;
+    width: 100px;
+}
+
+#passwords-wpr-1, #passwords-wpr-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#passwords-wpr-2 {
+    margin-left: 50px;
+}
+
+#main-passwords-wpr {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 2px solid #2F3E53;
+    padding-top: 50px;
+}
